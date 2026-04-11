@@ -3,56 +3,57 @@
 
 <head>
     <title>My First Website</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
 
-    <header>
-        <h1>Welcome to My Website</h1>
-        <p>I am learning web development 🚀</p>
+    <header class="bg-[#4CAF50] text-center text-white p-8">
+        <h1 class="text-4xl font-bold">Welcome to My Website</h1>
+        <p class="m-6">I am learning web development 🚀</p>
     </header>
 
-    <section>
-        <h2>About Me</h2>
+    <section class="p-7">
+        <h2 class="text-2xl font-bold">About Me</h2>
         <p>I have 9 Years of experience in python programming worked on frameworks Flask and Django
             Have good understanding of <strong>AWS Services(EC2, S3 Buckets, SQS and RDS with PSQL)</strong>
         </p>
     </section>
 
-    <section>
-        <h2>Projects</h2>
-        <ol>
-            <li>
+    <section class="p-7">
+        <h2 class="text-2xl font-bold">Projects</h2>
+        <ol class="p-7 list-decimal">
+            <li class="p-3">
                 <strong>Zelis HealthCare</strong>
-                <p>Frameworks: Django</p>
-                <p>Cloud: AWS</p>
-                <p>Duration: 2023-Current</p>
-                <p>project: Guidance Engine </p>
+                <p  class="p-1">Frameworks: Django</p>
+                <p  class="p-1">Cloud: AWS</p>
+                <p  class="p-1">Duration: 2023-Current</p>
+                <p  class="p-1">project: Guidance Engine </p>
             </li>
-            <li>
+            <li class="p-3">
                 <strong>apree HealthCare</strong>
-                <ul>
-                    <li>
-                        <p>Frameworks: Django</p>
-                        <p>Cloud: GCP</p>
-                        <p>Duration: 2021-2023</p>
-                        <p>Company: apree HealthCare</p>
+                <ul class="list-disc">
+                    <li class="p-3">
+                        <p  class="p-1">Frameworks: Django</p>
+                        <p  class="p-1">Cloud: GCP</p>
+                        <p  class="p-1">Duration: 2021-2023</p>
+                        <p  class="p-1">Company: apree HealthCare</p>
                     </li>
-                    <li>
-                        <p>Frameworks: Flask</p>
-                        <p>Cloud: GCP</p>
-                        <p>Duration: 2021-2023</p>
-                        <p>project: Data Ingestion of multiple types of files</p>
+                    <li class="p-3">
+                        <p class="p-1">Frameworks: Flask</p>
+                        <p class="p-1">Cloud: GCP</p>
+                        <p class="p-1">Duration: 2021-2023</p>
+                        <p  class="p-1">project: Data Ingestion of multiple types of files</p>
                     </li>
                 </ul>
             </li>
-            <li>
+            <li class="p-3">
                 <strong>Enlume Technologies</strong>
-                <p>Frameworks: Chalice & Zappa</p>
-                <p>Cloud: AWS</p>
-                <p>Duration: 2019-2021</p>
-                <p>project: Monarch Tractors</p>
+                <p class="p-1">Frameworks: Chalice & Zappa</p>
+                <p class="p-1">Cloud: AWS</p>
+                <p class="p-1">Duration: 2019-2021</p>
+                <p class="p-1">project: Monarch Tractors</p>
             </li>
         </ol>
     </section>
