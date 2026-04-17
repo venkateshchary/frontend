@@ -15,8 +15,8 @@
     </header>
 
     <section class="m-6">
-        <div class="flex flex-row space-x-10 p-4 border border-gray-100 shadow-sm rounded-xl">
-            <div class="ml-2 space-y-6">
+        <div class="flex flex-col md:flex-row gap-y-4 md:gap-x-8 p-4 border border-gray-100 shadow-sm rounded-xl">
+            <div class="w-full md:w-3/5 space-y-6">
                 <h4 class="text-xl text-orange-500">Hello, Welcome</h4>
                 <h2 class="text-2xl font-bold">I m Venkatesh Vadla</h2>
                 <p>I have 9 Years of experience in python programming worked on frameworks Flask and Django
@@ -24,43 +24,57 @@
                 </p>
                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md">Contact</button>
             </div>
-            <div><img src="img/alen.jpg" class="rounded-xl w-full" alt="venkatesh vadla"> </div>
+            <div class="w-full md:w-2/5"><img src="img/alen.jpg" class="rounded-xl w-full" alt="venkatesh vadla"> </div>
         </div>
     </section>
 
     <section>
         <h2 class="text-2xl font-bold ml-6">Projects</h2>
-        <div class="flex flex-col space-y-10 rounded-xl p-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 rounded-xl p-6">
             <div
                 class="hover:bg-[#92cbf6]/20 transition ease-in-out duration-200 bg-white shadow-sm border border-gray-100 rounded-xl p-4 space-y-2">
-                <strong>Zelis HealthCare</strong>
-                <p>Frameworks: Django</p>
-                <p>Cloud: AWS</p>
-                <p>Duration: 2023-Current</p>
-                <p>project: Guidance Engine </p>
+                <strong class="text-lg">Zelis HealthCare</strong>
+                <p class="text-sm text-gray-500">Duration: 2023-Current</p>
+                <p class="text-sm text-gray-500">Could: AWS</p>
+                <div class="space-y-2">
+                    <div class="p-3 rounded-md bg-gray-50 border-l-4 border-blue-400 pl-3">
+                        <p class="font-semibold">Project: Guidance Engine </p>
+                        <p>Frameworks: Django</p>
+                    </div>
+                    <div class="p-3 rounded-md bg-gray-50  border-l-4 border-blue-400 pl-3">
+                        <p class="font-semibold">Project: Recommendation Service</p>
+                        <p>Frameworks: FastAPI</p>
+                    </div>
+                </div>
             </div>
             <div
                 class="hover:bg-[#92cbf6]/20 transition ease-in-out duration-200 bg-white shadow-sm border border-gray-100 rounded-xl p-4 space-y-2">
-                <strong>apree HealthCare</strong>
-                <p>Frameworks: Django</p>
-                <p>Cloud: GCP</p>
-                <p>Duration: 2021-2023</p>
-                <p>Company: apree HealthCare</p>
-            </div>
-            <div
-                class="hover:bg-[#92cbf6]/20 transition duration-200 bg-white shadow-sm border border-gray-100 rounded-xl p-4 space-y-2">
-                <p>Frameworks: Flask</p>
-                <p>Cloud: GCP</p>
-                <p>Duration: 2021-2023</p>
-                <p>project: Data Ingestion of multiple types of files</p>
+                <strong class="text-lg">apree HealthCare</strong>
+                <p class="text-sm text-gray-500">Duration: 2021-2023</p>
+                <p class="text-sm text-gray-500">Cloud: GCP</p>
+                <div class="space-y-2">
+                    <div class="p-3 rounded-md bg-gray-50 border-l-4 border-blue-400 pl-3">
+                        <p class="font-semibold">Project: Admin Portal</p>
+                        <p>Frameworks: Django</p>
+                    </div>
+                    <div class="p-3 rounded-md bg-gray-50  border-l-4 border-blue-400 pl-3">
+                        <p class="font-semibold">Project: Files To BQ</p>
+                        <p>Frameworks: Flask</p>
+                    </div>
+                </div>
             </div>
             <div
                 class="hover:bg-[#92cbf6]/20 transition duration-200 bg-white border border-gray-100 shadow-sm rounded-xl p-4 space-y-2">
                 <strong>Enlume Technologies</strong>
-                <p>Frameworks: Chalice & Zappa</p>
-                <p>Cloud: AWS</p>
-                <p>Duration: 2019-2021</p>
-                <p>project: Monarch Tractors</p>
+                <p class="text-sm text-gray-500">Duration: 2019-2021</p>
+                <p class="text-sm text-gray-500">Cloud: AWS</p>
+                <div class="space-y-2">
+                    <div class="p-3 rounded-md bg-gray-50 border-l-4 border-blue-400 pl-3">
+                        <p class="font-semibold">Project:<a href="https://www.monarchtractor.com/digital-solutions">
+                                Monarch Tractors </a></p>
+                        <p>Frameworks: Chalice & Zappa</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
