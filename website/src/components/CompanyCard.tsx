@@ -1,12 +1,12 @@
-function CompanyCard({companyDetails}) {
+function CompanyCard({name, duration}) {
     return (
         <div
             className="hover:shadow-sm hover:ring-1 border border-gray-100 transition ease-in-out duration-200 bg-white rounded-xl p-4 space-y-2">
             <div className="flex flex-col md:flex-row gap-2 items-start md:items-center">
                 <img src="img/Apree_Health_Logo.jpg" className="rounded-xl w-20"/>
-                <strong className="text-lg font-bold">{companyDetails.name}</strong>
+                <strong className="text-lg font-bold">{name}</strong>
             </div>
-            <p className="text-sm text-gray-500">Duration:{companyDetails.duration}</p>
+            <p className="text-sm text-gray-500">Duration:{duration}</p>
             <div className="space-y-2">
                 <div
                     className="hover:bg-blue-50 hover:-translate-y-0.5 p-3 rounded-md bg-gray-50 border-l-4 border-blue-400 pl-3">
