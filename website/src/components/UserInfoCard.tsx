@@ -1,3 +1,5 @@
+import user_logo from '../assets/img/alen.jpg';
+
 function UserInfoCard(){
     return (
         <section className="m-6">
@@ -10,7 +12,7 @@ function UserInfoCard(){
                 </p>
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md">Contact</button>
             </div>
-            <div className="w-full md:w-2/5"><img src="img/alen.jpg" className="rounded-xl w-full" alt="venkatesh vadla"/> </div>
+            <div className="w-full md:w-2/5"><img src={user_logo} alt="venkatesh vadla image" className="rounded-xl w-full" alt="venkatesh vadla"/> </div>
         </div>
     </section>
     )
