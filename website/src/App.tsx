@@ -2,11 +2,10 @@ import './App.css'
 import CompanyCard from './components/CompanyCard.tsx';
 import UserInfoCard from './components/UserInfoCard.tsx';
 import WelcomeCard from './components/WelcomeCard.tsx';
-import user_logo from './assets/img/alen.jpg'; // Import image
-import apree_logo from './assets/img/Apree_Health_Logo.jpg'; // Import image
-import enlume_logo from './assets/img/enlume_logo.jpg'; // Import image
-import zelis_logo from './assets/img/Zelis-logo-banner.jpg'; // Import image
-import mobigesture_logo from './assets/img/mobigesture_logo.jpg'; // Import image
+import apree_logo from './assets/img/Apree_Health_Logo.jpg';
+import enlume_logo from './assets/img/enlume_logo.jpg';
+import zelis_logo from './assets/img/Zelis-logo-banner.jpg';
+import mobigesture_logo from './assets/img/mobigesture_logo.jpg';
 
 
 
