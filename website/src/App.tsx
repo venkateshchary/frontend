@@ -9,8 +9,6 @@ import mobigesture_logo from './assets/img/mobigesture_logo.jpg';
 
 
 
-
-
 function App() {
   const companyDetails = [{
     name: 'Zelis Healthcare', duration: '2023-Present', logo: zelis_logo,
@@ -38,6 +36,9 @@ function App() {
     <>
       <WelcomeCard />
       <UserInfoCard />
+      <section>
+        <h2 className="text-2xl font-bold ml-6">Projects</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 rounded-xl p-6">
       {
         companyDetails.map((company) => (
           <CompanyCard name={company.name}
@@ -47,6 +48,8 @@ function App() {
             key={company.name} />
         ))
       }
+      </div>
+      </section>
     </>
   );
 }
