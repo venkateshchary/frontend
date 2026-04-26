@@ -143,3 +143,16 @@ Will the index stay tied to the same company?
 
 👉 No ❌
 Indexes shift → React gets confused → UI bugs
+
+### TypeScript + Vite
+We don't need to write the extenstion in the imports
+
+Existing
+```scss
+import CompanyCard from './components/CompanyCard.tsx';
+```
+
+Resolution
+```scss
+import CompanyCard from './components/CompanyCard';
+```
