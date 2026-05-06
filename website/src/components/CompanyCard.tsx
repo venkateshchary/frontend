@@ -1,7 +1,18 @@
 import ProjectCard from './projectCard.tsx';
+import { FC } from 'react';
 
+interface CompanyCardProps {
+  name: string;
+  duration: string;
+  projectDetails: Array<{
+    projectName: string;
+    framework: string;
+    cloud: string;
+  }>;
+  logo: string;
+}
 
-function CompanyCard({ name, duration, projectDetails, logo }) {
+const CompanyCard: FC<CompanyCardProps> = ({ name, duration, projectDetails, logo }) => {
     return (
         <div
             className="hover:shadow-sm hover:ring-1 border border-gray-100 transition ease-in-out duration-200 bg-white rounded-xl p-4 space-y-2 ml-6 mb-4">
@@ -18,7 +29,7 @@ function CompanyCard({ name, duration, projectDetails, logo }) {
                 }
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default CompanyCard
+export default CompanyCard;
